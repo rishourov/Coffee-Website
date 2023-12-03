@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(34, 33, 33, 0.5)), url(images/coffe\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    margin-left: 15px;
+}
+
+.active {
+    background-color: blue;
+    border-radius: 3px;
+
+}
+
+.nav-right a:hover {
+    background-color: blue;
+    border-radius: 3 px;
+}
+
+/* middle */
+
+.middle {
+    color: white;
+    margin-top: 280px;
+    margin-left: 790px;
+    /* display: block;
+    position: relative;
+    top: 250px;
+    left: 250px; */
+}
+
+.middle p {
+    position: relative;
+    top: 10px;
+}
+
+.btn a {
+    position: relative;
+    top: 32px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
